@@ -30,14 +30,6 @@
 </tr>
 <tr>
 <td>
-(jvm) 
-<h4><a href="-initial-value-thread-local/index.html">InitialValueThreadLocal</a></h4>
-</td>
-<td>
-<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">InitialValueThreadLocal</span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/6/docs/api/java/lang/ThreadLocal.html"><span class="identifier">ThreadLocal</span></a><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span></code></td>
-</tr>
-<tr>
-<td>
 (common, iosArm64, iosX64, js, jvm, linux, macos) 
 <h4><a href="-result/index.html">Result</a></h4>
 </td>
@@ -136,11 +128,11 @@
 </tr>
 <tr>
 <td>
-<h4><a href="-thread-local-ref.html">ThreadLocalRef</a></h4>
+(common, iosArm64, iosX64, js, jvm, linux, macos) 
+<h4><a href="-thread-local-ref/index.html">ThreadLocalRef</a></h4>
 </td>
 <td>
-(common, iosArm64, iosX64, js, linux, macos) <code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">ThreadLocalRef</span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span></code><br/>
-<code><span class="identifier">ThreadLocalRef</span></code></td>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">ThreadLocalRef</span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span></code></td>
 </tr>
 </tbody>
 </table>
@@ -163,7 +155,7 @@
 </td>
 <td>
 <p>Allows to resolve name conflicts from common modules.</p>
-<code><span class="keyword">annotation</span> <span class="keyword">class </span><span class="identifier">PlatformName</span></code></td>
+<code><span class="keyword">annotation</span> <span class="keyword">class </span><s><span class="identifier">PlatformName</span></s></code></td>
 </tr>
 </tbody>
 </table>
@@ -172,11 +164,11 @@
 <tbody>
 <tr>
 <td>
-(jvm, common, iosArm64, iosX64, js, linux, macos) 
+(common, iosArm64, iosX64, js, jvm, linux, macos) 
 <h4><a href="value.html">value</a></h4>
 </td>
 <td>
-<code><span class="keyword">var </span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span> <a href="-thread-local-ref.html"><span class="identifier">ThreadLocalRef</span></a><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">value</span><span class="symbol">: </span><span class="identifier">T</span></code></td>
+<code><span class="keyword">var </span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span> <a href="-thread-local-ref/index.html"><span class="identifier">ThreadLocalRef</span></a><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">value</span><span class="symbol">: </span><span class="identifier">T</span></code></td>
 </tr>
 </tbody>
 </table>
@@ -192,17 +184,6 @@
 <p>All assertions in the given lambda are run.</p>
 <code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span> <a href="-assert/index.html"><span class="identifier">Assert</span></a><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">all</span><span class="symbol">(</span><span class="identifier" id="assertk$all(assertk.Assert((assertk.all.T)), kotlin.String, kotlin.Function1((assertk.Assert((assertk.all.T)), kotlin.Unit)))/message">message</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="assertk$all(assertk.Assert((assertk.all.T)), kotlin.String, kotlin.Function1((assertk.Assert((assertk.all.T)), kotlin.Unit)))/body">body</span><span class="symbol">:</span>&nbsp;<a href="-assert/index.html"><span class="identifier">Assert</span></a><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span><span class="symbol">.</span><span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code><br/>
 <code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span> <a href="-assert/index.html"><span class="identifier">Assert</span></a><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span><span class="symbol">.</span><span class="identifier">all</span><span class="symbol">(</span><span class="identifier" id="assertk$all(assertk.Assert((assertk.all.T)), kotlin.Function1((assertk.Assert((assertk.all.T)), kotlin.Unit)))/body">body</span><span class="symbol">:</span>&nbsp;<a href="-assert/index.html"><span class="identifier">Assert</span></a><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span><span class="symbol">.</span><span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-(common, iosArm64, iosX64, js, jvm, linux, macos) 
-<h4><a href="assert.html">assert</a></h4>
-</td>
-<td>
-<p>Asserts on the given value with an optional name.</p>
-<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span> <s><span class="identifier">assert</span></s><span class="symbol">(</span><span class="identifier" id="assertk$assert(assertk.assert.T, kotlin.String)/actual">actual</span><span class="symbol">:</span>&nbsp;<span class="identifier">T</span><span class="symbol">, </span><span class="identifier" id="assertk$assert(assertk.assert.T, kotlin.String)/name">name</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span>&nbsp;<span class="symbol">=</span>&nbsp;null<span class="symbol">)</span><span class="symbol">: </span><a href="-assert/index.html"><span class="identifier">Assert</span></a><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span></code>
-<p>Asserts on the given block returning an <code>Assert&lt;Result&lt;T&gt;&gt;</code>. You can test that it returns a value or throws an exception.</p>
-<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span> <s><span class="identifier">assert</span></s><span class="symbol">(</span><span class="identifier" id="assertk$assert(kotlin.Function0((assertk.assert.T)))/f">f</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<span class="identifier">T</span><span class="symbol">)</span><span class="symbol">: </span><a href="-assert/index.html"><span class="identifier">Assert</span></a><span class="symbol">&lt;</span><a href="-result/index.html"><span class="identifier">Result</span></a><span class="symbol">&lt;</span><span class="identifier">T</span><span class="symbol">&gt;</span><span class="symbol">&gt;</span></code></td>
 </tr>
 <tr>
 <td>
