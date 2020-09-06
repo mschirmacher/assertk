@@ -1,1 +1,0 @@
-sourceset_dependencies = '{":assertk/commonMain": [], ":assertk/iosArm64Main": [":assertk/commonMain",":assertk/nativeMain"], ":assertk/iosX64Main": [":assertk/commonMain",":assertk/nativeMain"], ":assertk/linuxMain": [":assertk/commonMain",":assertk/nativeMain"], ":assertk/macosMain": [":assertk/commonMain",":assertk/nativeMain"]}'

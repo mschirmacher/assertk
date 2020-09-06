@@ -1,1 +1,1 @@
-sourceset_dependencies = '{":assertk/commonMain": [], ":assertk/iosArm64Main": [":assertk/commonMain",":assertk/nativeMain"], ":assertk/iosX64Main": [":assertk/commonMain",":assertk/nativeMain"], ":assertk/jsMain": [":assertk/commonMain"], ":assertk/jvmMain": [":assertk/commonMain"], ":assertk/linuxMain": [":assertk/commonMain",":assertk/nativeMain"], ":assertk/macosMain": [":assertk/commonMain",":assertk/nativeMain"]}'
+sourceset_dependencies = '{}'
